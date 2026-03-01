@@ -1,8 +1,12 @@
 package UserRegistration.web.demo.UserEntity;
 
 import jakarta.persistence.*;
-import lombok.Data;
+import lombok.*;
 
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
 @Entity
 @Data
 public class User {
