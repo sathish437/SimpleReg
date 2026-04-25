@@ -8,9 +8,7 @@ public class LoginMapping {
     public static UserEntity mapLoginToUser(LoginReqDTO loginReqDTO){
         UserEntity user=new UserEntity();
         user.setUserName(loginReqDTO.getUserName());
-        user.setRole(loginReqDTO.getRole());
         user.setPassword(loginReqDTO.getPassword());
-
         return user;
     }
 

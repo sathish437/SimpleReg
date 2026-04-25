@@ -15,7 +15,7 @@ public class UserController {
     private UserService userService;
 
 
-    @GetMapping("/login")
+    @PostMapping("/login")
     public ResponseEntity<LoginResDTO> UserLogin(@RequestBody LoginReqDTO loginReqDTO){
         return ResponseEntity.ok(userService.Login(loginReqDTO));
     }
