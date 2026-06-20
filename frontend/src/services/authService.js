@@ -1,5 +1,5 @@
 // API service for authentication
-const API_URL = '/api/user';
+const API_URL = 'https://sathish5-simplereg.hf.space/api/user';
 
 // Register new user
 export const register = async (userData) => {
